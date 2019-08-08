@@ -20,8 +20,10 @@ h3 {
 }
 p {
     background-color: #05F2DB;
-    border: 10px solid #F23030;
-    padding: 5x;
+    border: 15px solid #F23030;
+    padding: 10px;
+    width: 800px;
+    margin: 25px;
 }
 
 button {
@@ -30,6 +32,7 @@ button {
 
 h4 {
     font-family: 'Bubblegum Sans';
+    font-size: 20px;
     color: #F23030;
 }
 .image1 {
