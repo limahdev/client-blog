@@ -1,40 +1,68 @@
 body {
     background-image: url(images/leaves.png);
 }
-
+body h1 {
+    font-weight: 550;
+    background-color: rgb(145, 212, 145);
+    padding: 15px 0px 10px;
+}
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     text-transform: uppercase;
     text-align: center;
     color: #F23030;
+
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
+    text-align: center;   
 }
-h3 {
-    text-align: center;
-    
+.nav-bar {
+    background-color: rgb(145, 212, 145);
 }
 p {
     background-color: #05F2DB;
-    border: 15px solid #F23030;
-    padding: 10px;
-    width: 800px;
-    margin: 25px;
-}
-
-button {
-    display: inline-block;
-}
-
-h4 {
     font-family: 'Bubblegum Sans';
     font-size: 20px;
+    border: 10px solid #F23030;
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+}
+section p {
+    border: 5px solid #F23030;
+    padding: 10px;
+}
+button {
+    display: inline-block;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Bubblegum Sans';
+    font-size: 35px;
     color: #F23030;
+}
+.content-heading {
+    text-align: center;
 }
 .image1 {
     float: right; 
+    width: 50%;
+    height: 75%;
+    border: 10px solid #F23030;
+}
+.image3 {
+    background-color: #05F2DB;
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure p {
+    text-align: center;
+}
+h5 {
+    font-family: 'Lato', sans-serif;
 }
